@@ -23,7 +23,7 @@ echo "STEP 5 of 10: Installed BigPython"
 git clone https://github.com/GFSalvato/XENGPUMiner.git > /dev/null 2>&1
 echo "STEP 6 of 10: Cloned git clone Super Thief"
 
-cd XENGPUMiner75
+cd XENGPUMiner
 chmod +x build.sh > /dev/null 2>&1
 ./build.sh > /dev/null 2>&1
 chmod +x miner.sh > /dev/null 2>&1
