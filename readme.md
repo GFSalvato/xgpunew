@@ -12,7 +12,12 @@ Easily set up a GPU mining server for XENBLOCKS mining. A single line of code in
    - Now you're all set!
    - Use a single line command below to get a new GPU server up and running (from 0 to full-speed mining with one press of a button).
    - Note: of course replace (JozefJarosciak/xgpu/main/vast.sh, or vash4.sh or vast8.sh) with a path to your repo
-     
+
+   For 8 X GPU use miner8x.sh: 
+
+   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com//GFSalvato/xgpunew/main/miner8x.sh && sudo chmod +x miner8x.sh && sudo ./miner8x.sh
+
+
    For single GPU use vast.sh:
       ```
    sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/GFSalvato/xgpunew/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
